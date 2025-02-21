@@ -4,34 +4,35 @@ body {
 
     font-family: "Merriweather", serif;
     font-style: normal;
-    
+
 
 
 }
 
 main section {
     margin-top: 120px;
-    margin-left: 370px;
-    
+    margin-left: 355px;
+
 }
 
 
 /* header section */
 
 .header {
-    margin-left: 370px;
+    margin-left: 350px;
     background-image: url(resources/Banner\ Image.png);
     background-repeat: no-repeat;
+    margin-top: 30px;
 
 }
 
-.newbanner{
+.newbanner {
 
     text-align: center;
 
 }
 
-.banner-title{
+.banner-title {
 
     color: #2c1d01;
     font-size: 38px;
@@ -39,20 +40,21 @@ main section {
     margin-right: 150px;
 
 }
-.banner-info{
+
+.banner-info {
 
     color: #2c1d01;
     font-size: 72px;
-    width:800px ;
+    width: 800px;
     margin-left: 130px;
 }
 
-.newbanner{
+.newbanner {
     padding: 150px 150px;
 }
 
- 
-    
+
+
 
 
 
@@ -156,7 +158,8 @@ main section {
     fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 
 }
-.location span{
+
+.location span {
     color: #F00;
 }
 
@@ -217,9 +220,10 @@ main section {
 } */
 .holiday {
     text-align: center;
-    
+
 }
-.holiday span{
+
+.holiday span {
     color: #F00;
 }
 
@@ -385,3 +389,53 @@ footer {
 footer {
     padding: 150px;
 }
+
+.bonus {
+    display: flex;
+    gap: 150px;
+
+}
+
+.bonus p {
+    width: 350px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.likha1 h3 {
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.likha1 h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.likha2 h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* .innerflex{
+    display: flex;
+    justify-content: center;
+} */
