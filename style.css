@@ -439,22 +439,24 @@ footer {
     display: flex;
     justify-content: center;
 } */
+ .shopping{
 
-.shopping{
-    
-}
-.girl {
-   position: absolute;
-  
-    
-}
-.red-border{
-    position:relative;
-    bottom: 70px;
-   
+    justify-items: center;
+ }
+
+.girl{
+    position: relative;
+    left: 890px;
+    top: 4px;
 }
 .gift-box{
-    position: absolute;
-    
-    
+    position: relative;
+    top: 670px;
 }
+.discount{
+    position: relative;
+    top: 300px;
+    right: 200px;
+}
+
+
